@@ -1,28 +1,29 @@
- import java.util.*;
-public class Main
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class Palindrome
 {
-    
-    public static void main (String args[])
+    public static void main(String args[])
     {
-        System.out.println("enter any number: ");
         Scanner sc=new Scanner(System.in);
+        System.out.println("enter any number:");
         int n=sc.nextInt();
+        int result=0;
         int temp=n;
-        int N=0;
         while(n>0)
         {
             int res=n%10;
-            N=(N*10)+res;
+             result=result*10+res;
             n=n/10;
         }
-        if(temp==N)
+
+        if(result==temp)
         {
-            System.out.println("palindrome");
+           System.out.println("palindrome");
         }
         else
         {
-            System.out.println("not a palindrome");
+         System.out.println(" not palindrome");
         }
-        
     }
 }
