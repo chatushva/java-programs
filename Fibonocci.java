@@ -1,5 +1,3 @@
-// Online Java Compiler
-// Use  System.out.println("enter any number:");
 import java.util.*;
 class Main {
     public static void main(String[] args) {
