@@ -1,4 +1,3 @@
-
 class Datatype
 {
     static byte b;
