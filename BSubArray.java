@@ -1,4 +1,3 @@
-
 import java.util.*;
 class Main {
     public static int sum(int arr[],int k)
