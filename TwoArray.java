@@ -1,5 +1,4 @@
 import java.util.*;
-
 class TwoArray {
     boolean twoSum(int arr[], int target) {
         HashSet<Integer> set = new HashSet<>();
