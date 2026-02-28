@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Union {
 
     public static ArrayList<Integer> union(int a[], int b[]) {
