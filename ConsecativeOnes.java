@@ -1,5 +1,4 @@
 import java.util.*;
-
 class  Main{
     public static int con(int arr[])
 {
